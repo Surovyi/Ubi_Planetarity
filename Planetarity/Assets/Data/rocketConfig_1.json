@@ -1,0 +1,8 @@
+{
+  "RocketType": 1,
+  "InitialAccelerationMultiplier": 5,
+  "Mass" : 5.0,
+  "Lifetime" : 10.0,
+  "Cooldown" : 1.0,
+  "Damage" : 20
+}

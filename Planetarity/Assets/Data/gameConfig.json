@@ -1,0 +1,44 @@
+{
+  "DrawOrbits": true,
+  "DrawGravityField": true,
+  "SpawnPlanetsOnTheSameLine" : false,
+  "ClampMaxGravity" : true,
+  "AllowReversePlanetMove" : true,
+  "SpawnPlanetMinDistance" : 1.8,
+  "SunMass" : 20.0,
+  "PlanetHp" : 100,
+  "UniverseGravitationalConstant" : 0.0001,
+  "MaxGravityForce" : 0.00015,
+  "AiPlayersRange": {
+    "Min": 1,
+    "Max": 2
+  },
+  "PlanetHueRange": {
+    "Min": 0,
+    "Max": 360
+  },
+  "PlanetSpawnRadiusRange": {
+    "Min": 4,
+    "Max": 18
+  },
+  "PlanetSizeRange": {
+    "Min": 0.2,
+    "Max": 0.5
+  },
+  "PlanetGravityRange": {
+    "Min": 1.0,
+    "Max": 5.0
+  },
+  "PlanetMoveSpeed": {
+    "Min": 0.3,
+    "Max": 1.5
+  },
+  "PlanetMassRange": {
+    "Min": 10.0,
+    "Max": 11.0
+  },
+  "CameraSizeRange": {
+    "Min": 8.0,
+    "Max": 14.0
+  }
+}

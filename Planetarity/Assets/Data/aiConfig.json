@@ -1,0 +1,14 @@
+{
+  "AdditionalShootCooldownTime": {
+    "Min": 2.5,
+    "Max": 5.0
+  },
+  "StartShootDelayRange": {
+    "Min": 1.0,
+    "Max": 2.0
+  },
+  "ShootAngleRandomCorrection": {
+    "Min": 5.0,
+    "Max": 40.0
+  }
+}
