@@ -107,6 +107,7 @@ namespace game.controllers {
             _cameraTransform = Camera.transform;
             _initialCameraOffset = _cameraTransform.forward * _cameraTransform.position.magnitude;
 
+            // Saving specified in Inspector view objects
             if (ObjectsToBeInView?.Count > 0) {
                 _objectsInFocus.AddRange(ObjectsToBeInView);
             }

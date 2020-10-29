@@ -187,6 +187,10 @@ namespace game.managers {
 
             sInstance = this;
 
+            // Game has to be run in a stable environment - disabling vSync and capping FPS
+            Application.targetFrameRate = 60;
+            QualitySettings.vSyncCount = 0;
+
             // Ensure that all references set in Inspector
             Assert.IsNotNull(GameConfig, "GameManager.Awake => GameConfig == null");
             Assert.IsNotNull(AiConfig, "GameManager.Awake => AiConfig == null");
